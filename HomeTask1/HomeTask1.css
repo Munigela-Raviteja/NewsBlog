@@ -1,0 +1,187 @@
+/* --------------initialization------------- */
+* {
+  margin: 0rem;
+  padding: 0rem;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* ------------header----------------- */
+
+/* --------------1 st part--------------- */
+#row-1 {
+  background-color: indigo;
+  display: flex;
+  justify-content: center;
+}
+#hd1 {
+  background-color: aliceblue;
+  width: 25rem;
+  height: 5rem;
+  margin: 1rem;
+  justify-content: center;
+  display: flex;
+  border: #ff004f solid 0.1rem;
+
+}
+#content {
+  padding: 1rem;
+  text-align: center;
+}
+#content>h2{
+    padding-bottom: 0.2rem;
+}
+/* --------------2 nd part---------------- */
+#row-2 {
+  display: grid;
+  gap: rem;
+  grid-auto-flow: column;
+}
+#column1 {
+  margin: 1rem;
+  margin-left: 4rem;
+}
+#newsTopics {
+  padding-right: 3rem;
+}
+#column2 {
+  margin-top: 2rem;
+  margin-left: 18.8rem;
+  margin-bottom: 2rem;
+}
+#column3 {
+  margin: 1rem;
+  margin-left: 15rem;
+}
+#email {
+  padding: 0.1rem;
+}
+.btn1 {
+  display: inline-block;
+  background: black;
+  color: white;
+  padding: 0.1rem;
+}
+.btn1:hover {
+  background-color: gainsboro;
+}
+/* ---------------Main page---------------- */
+
+#news1 {
+  display: flex;
+  border-top: 0.1rem solid black; ;
+}
+#news2 {
+  display: flex;
+  border-top: 0.1rem solid black;
+  
+}
+#news3 {
+  display: flex;
+  border-top: 0.1rem solid black;
+  border-bottom: 0.1rem solid black;
+}
+.btn2 {
+  display: inline-block;
+  background: #ff004f;
+  color: white;
+  padding: 0.4rem;
+  margin-top: 0.9rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+.btn2:hover {
+  background-color: gainsboro;
+}
+.btn3 {
+  display: block;
+  color: black;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.5s;
+}
+.btn3:hover {
+  background-color: #ff004f;
+}
+
+img {
+  height: 17rem;
+  width: 15rem;
+  margin: 2rem;
+}
+.newsHeader1 {
+    margin-top: 1.75rem;
+    margin-left: 1rem;
+    margin-bottom: 0.3rem;
+  }
+  .newsHeader2 {
+    margin-left: 1rem;
+    margin-bottom: 0.3rem;
+  }
+.newsContent {
+  margin: 1rem;
+}
+
+
+#t1 {
+  margin-right: 1rem;
+  margin-left: 0.9rem;
+}
+/* --------------footer------------- */
+.copyright {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: indigo;
+  font-weight: 300px;
+  margin-top: 20px;
+  color: white;
+}
+/* -----------------for small screen---------------- */
+@media screen and (max-width: 600px) {
+  #row-1 {
+    width: 700px;
+    height: 112px;
+  }
+
+  html {
+    width: 700px;
+    height: 112px;
+  }
+  #column1 {
+    margin-left: 3rem;
+  }
+  #column2 {
+    margin-left: 2rem;
+  }
+  #column3 {
+    margin-left: 3rem;
+    margin-right: 0px;
+    width: 150px;
+    height: 63px;
+  }
+  #news1 {
+    display: block;
+  }
+  #news2 {
+    display: block;
+  }
+  #news3 {
+    display: block;
+  }
+  img {
+    margin-left: 14rem;
+  }
+  #t1 {
+    margin-left: 14rem;
+  }
+  .btn2 {
+    margin-left: 18rem;
+  }
+}
